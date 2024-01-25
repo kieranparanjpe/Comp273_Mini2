@@ -2,7 +2,7 @@
 	buffer1: .space 270
 	buffer2: .space 270
 	shiftAmount: .space 9
-	prompt1: .asciiz "\nInput a string 30 characters or less: "
+	prompt1: .asciiz "Input a string 30 characters or less: "
 	prompt2: .asciiz "\nInput an integer greater than 0: "
 	answer: .asciiz "\nShifted String = "
 	error: .asciiz "\nNo input. Run again."
